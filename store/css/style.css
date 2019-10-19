@@ -479,6 +479,7 @@ cursor:pointer;
     border-radius: 50px;
     width: 80px;
     height: 80px;
+    font-size: 30px;
 }
 
 
@@ -749,6 +750,8 @@ top:50px;
 margin-bottom:28px;
 margin-top:15px;
 }
+
+
 #portfolio2 h5{
 margin-bottom:0;
 }
@@ -1035,7 +1038,10 @@ padding-top:10px;
 .counter-wrap{
 padding:50px 0;
 }
-.counter-section .caption{color:yellow; font-weight:bold;}
+
+.counter-section .caption {
+    color: whitesmoke;
+}
 .counter-section .alternate{
 background-color: rgba(254,82,76, .2);
 }
@@ -1148,12 +1154,8 @@ background: #85ceab;
 .form-alerts .alert.alert-danger{
 background:#fe8080;
 }
-/* Map */
-#map{
-margin-top:20px;
-width:100%;
-height:400px;
-}
+
+
 /* Footer */
 footer{
 background:rgba(54,53,54,.96);
