@@ -350,6 +350,12 @@ margin:0 0 10px 0;
 padding:0;
 }
 
+.about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* 5.3 Services Section ("what we do") */
 .services-item:before{
 content: "";
@@ -774,7 +780,7 @@ padding-bottom:2px;
 	overflow: hidden;
 	max-height: 350px;
 	width: 100%;
-	background: #3085a3;
+    background: #2c2c2c;
 	text-align: center;
 	cursor: pointer;
 }
@@ -847,7 +853,7 @@ figure.effect-lily img {
 	max-width: none;
 	width: -webkit-calc(100% + 50px);
 	width: calc(100% + 50px);
-	opacity: 0.7;
+    opacity: 0.5;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-40px,0, 0);
@@ -860,7 +866,7 @@ figure.effect-lily figcaption {
 
 figure.effect-lily figcaption > div {
 	position: absolute;
-	bottom: 30px;
+    top: 30px;
 	left: 0;
 	padding: 15px;
 	width: 100%;
@@ -883,13 +889,15 @@ figure.effect-lily p{
 figure.effect-lily p {
 	color:yellow;
 	font-weight:bold;
-	font-size:16px;
+    font-size: 12px;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
 }
 
-figure.effect-lily:hover img,
+figure.effect-lily:hover img {
+    opacity: 0.2;
+}
 figure.effect-lily:hover p {
 	opacity: 1;
 }
@@ -1084,6 +1092,7 @@ margin:0;
 .contact-address{
 padding-top:60px;
 }
+
 .contact-form .form-group{
 padding:5px 0;
 min-height:100%;
@@ -1153,6 +1162,14 @@ background: #85ceab;
 }
 .form-alerts .alert.alert-danger{
 background:#fe8080;
+}
+
+/* WeChat */
+
+.cta-one-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
